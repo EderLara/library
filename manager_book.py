@@ -18,9 +18,9 @@ class Book(Base):
 # Crear las tablas en la base de datos
 Base.metadata.create_all(engine)
 
-# Crear una sesión para interactuar con la base de datos
-Session = sessionmaker(bind=engine)
-session = Session()
+# # Crear una sesión para interactuar con la base de datos
+# Session = sessionmaker(bind=engine)
+# session = Session()
 
 class BookManager:
 
